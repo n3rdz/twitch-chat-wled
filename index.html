@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>WLED Controller by dialogikTV</title>
+        <title>WLED Controller by dialogikTV, edited by theo_testperson</title>
         <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -10,6 +10,23 @@
         <script>
             // import colors from './colors.js';
 // https://drafts.csswg.org/css-color-3/#svg-color
+
+const docBody = document.body;
+
+const channel = 'theo_testperson'; // Hier den Twitch-Channelnamen angeben
+const hostname = 'http://wled.local'; // Hier die WLED IP, oder den Hostname angeben z.b. http://wled.local oder http://192.168.0.44
+const { chat } = new window.TwitchJs({ channel });
+
+const effects = {   // Hier müssen die Namen der WLED Presets angegeben werden, die per !fx abgerufen werden können z.B. !fx scanner
+    "android": 1,
+    "scanner": 2,
+    "breathe": 3,
+    "solid": 4
+}
+
+
+// Hier sind die Farben definiert die per !color XXXX abgerufen werden können z.B. !color aliceblue
+
 const colors = {
     "aliceblue": "F0F8FF",
     "antiquewhite": "FAEBD7",
@@ -155,17 +172,7 @@ const colors = {
 }
 
 
-const docBody = document.body;
 
-const channel = 'theo_testperson';
-const hostname = 'http://192.168.0.44';
-const { chat } = new window.TwitchJs({ channel });
-const effects = {
-    "android": 1,
-    "scanner": 2,
-    "breathe": 3,
-    "solid": 4
-}
 var currentEffect = 1;
 
 console.log('[SYS] WLED Chatbot Overlay initalized');
