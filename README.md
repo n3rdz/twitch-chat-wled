@@ -37,7 +37,7 @@ RGB
 
 Sie können die WLED-Effekte mit dem Befehl „!fx“ ändern. (Technisch gesehen ändern diese Befehle [*Voreinstellungen*](https://github.com/Aircoookie/WLED/wiki/Presets), nicht [*Effekte*](https://github.com/Aircoookie/WLED/wiki/ Liste-der-Effekte-und-Paletten#Effekte)).
 
-Sagen Sie „!fx <Effekt>“, wobei „Effekt“ steht
+Sagen Sie „!fx <Effekt>“, wobei „Effekt“ für einen der definierten namen steht
 
 * `android`,
 * `scanner` bzw.
