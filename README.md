@@ -12,7 +12,7 @@ Dazu den kompletten Ordner herunterladen und entpacken und die index.html im Bro
 
 ## Farbe einstellen
 
-Sagen Sie „!color RRGGBB“ (oder „#RRGGBB“) in [hexadezimaler Schreibweise](https://en.wikipedia.org/wiki/Hexadecimal) oder „!color R,G,B“, wobei „R“, „G ` und `B` müssen einen Wert zwischen `0-255` haben, um die Primärfarbe zu ändern.
+Sagen Sie „!color RRGGBB“ (oder „#RRGGBB“) in [hexadezimaler Schreibweise](https://en.wikipedia.org/wiki/Hexadecimal) oder „!color R,G,B“, wobei „R“, „G“ und „B“ müssen einen Wert zwischen „0-255“ haben, um die Primärfarbe zu ändern.
 
 Sie können eine Live-Demo davon im [dialogikTV Twitch Livestream-Chat] (https://www.twitch.tv/dialogikTV) sehen.
 
