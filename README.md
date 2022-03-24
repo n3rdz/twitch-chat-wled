@@ -6,7 +6,7 @@ Steuern Sie eine WLED mit Twitch-Chat-Befehlen.
 
 Diese Webseite hört auf Twitch-Chat-Befehle, die es ermöglichen, die WLED zu steuern. Diese Anwendung verwendet [WLED HTTP Request API](https://github.com/Aircoookie/WLED/wiki/HTTP-request-API).
 
-Zum ausführen muss die Index.html ausgeführt werden.
+Zum ausführen muss die Index.html geöffnet werden.
 Dazu den kompletten Ordner herunterladen und entpacken und die index.html im Browser öffnen oder in OBS einbinden.
 
 
